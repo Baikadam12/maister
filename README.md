@@ -16,6 +16,7 @@
 
 ![Кіру ағыны](docs/auth-mobile.jpg)
 ![Welcome-экран](docs/welcome.jpg)
+![Жаттығу режимі: 20 сұрақ × 30 секунд](docs/training-20q.jpg)
 
 ## Іске қосу
 
