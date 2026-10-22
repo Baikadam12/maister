@@ -24,7 +24,10 @@ const HOST = process.env.HOST || '0.0.0.0';
 
 const COOKIE = 'mai_s';
 const SESSION_MS = 30 * 24 * 60 * 60 * 1000;
-const SOLO_LIMIT_MS = 20000;
+const SOLO_LIMIT_MS = 30000;
+const DAILY_LIMIT_MS = 20000;
+const SOLO_QUESTIONS = 20;
+const DAILY_QUESTIONS = 8;
 const DUEL_LIMIT_MS = 15000;
 const DUEL_QUESTIONS = 8;
 const AVATARS = ['olive', 'avocado', 'fish', 'walnut', 'leaf', 'drop'];
@@ -1623,7 +1626,11 @@ async function handleApi(req, res, url) {
       mode === 'daily'
         ? `daily:${dayKey()}:v1`
         : `solo:${user.id}:${crypto.randomUUID()}`;
-    const items = pickQuestions(mode === 'daily' ? 8 : 10, seed);
+    const limitMs = mode === 'daily' ? DAILY_LIMIT_MS : SOLO_LIMIT_MS;
+    const items = pickQuestions(
+      mode === 'daily' ? DAILY_QUESTIONS : SOLO_QUESTIONS,
+      seed
+    );
     const run = {
       id: crypto.randomUUID(),
       userId: user.id,
@@ -1640,7 +1647,7 @@ async function handleApi(req, res, url) {
       done: false,
       startedAt: now(),
       qStartedAt: now(),
-      limitMs: SOLO_LIMIT_MS,
+      limitMs,
     };
     runs.set(run.id, run);
     sendJson(res, 201, {
@@ -1648,7 +1655,7 @@ async function handleApi(req, res, url) {
       mode,
       index: 0,
       total: items.length,
-      limitMs: SOLO_LIMIT_MS,
+      limitMs,
       question: sanitizeQuestion(items[0]),
       startedAt: now(),
     });

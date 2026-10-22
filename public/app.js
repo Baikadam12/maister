@@ -1153,7 +1153,7 @@
     const duelBar = $('#duelBar');
     if (duelBar) duelBar.classList.add('hidden');
     $('[data-game-mode]').textContent =
-      s.kind === 'daily' ? 'Күнделікті сынақ · 8 сұрақ' : 'Жаттығу · 10 сұрақ';
+      s.kind === 'daily' ? 'Күнделікті сынақ · 8 сұрақ' : 'Жаттығу · 20 сұрақ';
     renderProgress(s.index + 1, s.total);
     $('[data-q-cat]').textContent = s.q.cat;
     $('[data-q-count]').textContent = `${s.index + 1} / ${s.total}`;
