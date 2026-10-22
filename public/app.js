@@ -634,8 +634,8 @@
       return;
     }
     setNickState('checking', 'Лақап ат тексерілуде…');
-    $('[data-enter-panel]')?.classList.add('is-checking');
     setEnterMode();
+    $('[data-enter-panel]')?.classList.add('is-checking');
     const seq = ++nickLookupSeq;
     nickLookupTimer = setTimeout(async () => {
       try {
