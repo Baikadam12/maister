@@ -1,0 +1,19 @@
+{
+  "name": "МАЙСТЕР — майлар мен тағамтану сайысы",
+  "short_name": "МАЙСТЕР",
+  "description": "Майлар мен тағамтану туралы қазақ тіліндегі онлайн білім сайысы. Жеке жаттығу, күнделікті сынақ және 1v1 дүэл.",
+  "lang": "kk",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B1512",
+  "theme_color": "#0B1512",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

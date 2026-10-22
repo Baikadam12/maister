@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 640" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Зәйтүн майы, авокадо, балық, жаңғақ және зәйтүн</title>
+  <desc id="heroDesc">МАЙСТЕР ойынының түпнұсқа суреттемесі: майға бай тағамдардан құралған натюрморт.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="0" x2="700" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6EEDD"/>
+      <stop offset=".55" stop-color="#EFE3CB"/>
+      <stop offset="1" stop-color="#E2D1AF"/>
+    </linearGradient>
+    <linearGradient id="oil" x1="320" y1="220" x2="410" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3D48A"/>
+      <stop offset=".45" stop-color="#E0AC3E"/>
+      <stop offset="1" stop-color="#B9781E"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="320" y1="250" x2="405" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8E7B2" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#D19A32" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#7C5218" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="avo" x1="520" y1="250" x2="640" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C4D98B"/>
+      <stop offset="1" stop-color="#94B25D"/>
+    </linearGradient>
+    <linearGradient id="salmon" x1="540" y1="430" x2="690" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F0A487"/>
+      <stop offset="1" stop-color="#D9785C"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="90" y1="430" x2="240" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#45613B"/>
+      <stop offset="1" stop-color="#2B3F28"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4A3A1E" flood-opacity=".22"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#4A3A1E" flood-opacity=".2"/>
+    </filter>
+    <clipPath id="bottleClip">
+      <path d="M330 238c0-14 8-22 16-31v-42h58v42c8 9 16 17 16 31v226c0 21-12 32-32 32h-26c-20 0-32-11-32-32V238Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="760" height="640" rx="38" fill="url(#bg)"/>
+  <circle cx="612" cy="128" r="96" fill="#E8B44A" opacity=".26"/>
+  <circle cx="612" cy="128" r="72" fill="none" stroke="#A8802C" stroke-opacity=".28" stroke-width="1"/>
+  <circle cx="612" cy="128" r="54" fill="none" stroke="#A8802C" stroke-opacity=".18" stroke-width="1"/>
+  <circle cx="142" cy="188" r="118" fill="#8AAE55" opacity=".11"/>
+  <path d="M0 512c160-26 290-20 420 4s240 26 340 6v118H0V512Z" fill="#DCC9A5" opacity=".55"/>
+
+  <g opacity=".8" stroke="#56653F" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <path d="M62 96c52 4 82 30 92 76"/>
+    <path d="M118 134c-2-19 6-33 25-43M138 152c18-10 34-8 48 5M92 114c-4-16 1-27 14-36"/>
+  </g>
+  <g fill="#6F8A45">
+    <ellipse cx="99" cy="102" rx="13" ry="6" transform="rotate(-38 99 102)"/>
+    <ellipse cx="143" cy="132" rx="14" ry="6" transform="rotate(24 143 132)"/>
+    <ellipse cx="152" cy="171" rx="12" ry="5" transform="rotate(-16 152 171)"/>
+    <ellipse cx="83" cy="127" rx="11" ry="5" transform="rotate(52 83 127)"/>
+  </g>
+
+  <ellipse cx="374" cy="534" rx="128" ry="22" fill="#6B5733" opacity=".13"/>
+
+  <g filter="url(#shadow)">
+    <path d="M330 238c0-14 8-22 16-31v-42h58v42c8 9 16 17 16 31v226c0 21-12 32-32 32h-26c-20 0-32-11-32-32V238Z" fill="url(#oil)"/>
+    <path d="M330 238c0-14 8-22 16-31v-42h58v42c8 9 16 17 16 31v226c0 21-12 32-32 32h-26c-20 0-32-11-32-32V238Z" fill="url(#glass)"/>
+    <g clip-path="url(#bottleClip)">
+      <path d="M318 396c34 14 66 12 102-2v104c0 18-12 28-30 28h-42c-18 0-30-10-30-28V396Z" fill="#A96B18" opacity=".32"/>
+      <path d="M340 254c-8 8-10 18-10 32v208M352 250v20" stroke="#FFF6DD" stroke-opacity=".45" stroke-width="7" stroke-linecap="round"/>
+      <path d="M394 252c10 14 10 28 10 44" stroke="#FFF6DD" stroke-opacity=".3" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <path d="M346 165h58v36l-7 10h-44l-7-10v-36Z" fill="#D8B978"/>
+    <path d="M352 128h46v38h-46z" fill="#5C4326"/>
+    <path d="M352 128h46v10h-46z" fill="#7A5A35"/>
+    <path d="M346 201c6 4 12 6 29 6s23-2 29-6" fill="none" stroke="#8E6C30" stroke-width="2"/>
+    <rect x="343" y="300" width="64" height="118" rx="5" fill="#F6EEDD"/>
+    <rect x="349" y="306" width="52" height="106" rx="3" fill="none" stroke="#B49A63" stroke-width="1"/>
+    <text x="375" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1.5" fill="#2E3D2A">OLIO</text>
+    <path d="M362 341h26" stroke="#B08B4A" stroke-width="1"/>
+    <text x="375" y="357" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" letter-spacing="1.3" fill="#5C543F">EXTRA VIRGIN</text>
+    <path d="M375 370c9 8 12 15 7 21-5 5-12 0-10-7 1-4 2-8 3-14Z" fill="#7FA24A"/>
+    <path d="M362 391h26" stroke="#B08B4A" stroke-width="1"/>
+    <text x="375" y="403" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" letter-spacing="1" fill="#5C543F">COLD PRESSED</text>
+    <circle cx="399" cy="444" r="4" fill="#F6EEDD" opacity=".28"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="172" cy="510" rx="104" ry="25" fill="#6B5733" opacity=".18"/>
+    <path d="M82 454c8 58 34 82 90 82s82-24 90-82c-56 18-124 18-180 0Z" fill="url(#bowl)"/>
+    <path d="M84 454c52 16 126 16 176 0" fill="none" stroke="#C9B27A" stroke-width="3" opacity=".55"/>
+    <ellipse cx="170" cy="452" rx="88" ry="20" fill="#213220"/>
+    <g>
+      <ellipse cx="130" cy="445" rx="20" ry="26" transform="rotate(32 130 445)" fill="#789A45"/>
+      <ellipse cx="130" cy="445" rx="13" ry="17" transform="rotate(32 130 445)" fill="#A9C069"/>
+      <ellipse cx="192" cy="441" rx="19" ry="25" transform="rotate(-28 192 441)" fill="#5E7F38"/>
+      <ellipse cx="192" cy="441" rx="12" ry="16" transform="rotate(-28 192 441)" fill="#8EAC55"/>
+      <ellipse cx="162" cy="431" rx="20" ry="26" transform="rotate(8 162 431)" fill="#6F913F"/>
+      <ellipse cx="162" cy="431" rx="12" ry="17" transform="rotate(8 162 431)" fill="#B7CA76"/>
+      <ellipse cx="213" cy="457" rx="17" ry="22" transform="rotate(-52 213 457)" fill="#547232"/>
+      <ellipse cx="112" cy="462" rx="16" ry="22" transform="rotate(56 112 462)" fill="#64853B"/>
+    </g>
+    <path d="M234 440c17-13 29-28 36-46" fill="none" stroke="#56653F" stroke-width="2"/>
+    <ellipse cx="265" cy="400" rx="13" ry="6" transform="rotate(-36 265 400)" fill="#7F9C4D"/>
+    <ellipse cx="279" cy="386" rx="11" ry="5" transform="rotate(18 279 386)" fill="#96B25D"/>
+  </g>
+
+  <g filter="url(#shadow)" transform="rotate(-12 570 350)">
+    <path d="M570 238c38 0 64 37 64 89 0 33-17 55-41 65-15 6-33 6-47 0-24-10-40-32-40-65 0-52 26-89 64-89Z" fill="#3D572D"/>
+    <path d="M570 253c27 0 47 31 47 70 0 27-12 45-31 53-10 4-22 4-32 0-19-8-31-26-31-53 0-39 20-70 47-70Z" fill="url(#avo)"/>
+    <circle cx="570" cy="351" r="26" fill="#7A4A2B"/>
+    <circle cx="561" cy="342" r="8" fill="#9B6842" opacity=".75"/>
+    <path d="M521 258c-14-13-16-29-7-48 14 6 21 20 20 39" fill="#6F8A45"/>
+    <path d="M519 259c-2 12-6 22-13 31" fill="none" stroke="#4B5D32" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#soft)" transform="rotate(-7 618 492)">
+    <path d="M535 466c30-28 82-35 118-16 21 11 34 29 40 51-30 26-79 34-114 18-24-11-38-29-44-53Z" fill="#C96E50"/>
+    <path d="M550 455c28-18 67-21 96-8 17 8 28 21 34 37-27 18-65 23-94 12-21-8-32-23-36-41Z" fill="url(#salmon)"/>
+    <g fill="none" stroke="#FBE0D2" stroke-width="4" stroke-linecap="round" opacity=".8">
+      <path d="M560 461c26-10 58-9 81 3"/>
+      <path d="M563 477c25-8 53-5 74 6"/>
+      <path d="M575 492c20-5 43-2 57 7"/>
+      <path d="M574 447c19-6 42-4 59 4"/>
+    </g>
+    <path d="M535 466c-2 6-1 11 3 16" fill="none" stroke="#F6E6D0" stroke-width="3" opacity=".4"/>
+  </g>
+
+  <g transform="translate(438 510)" filter="url(#soft)">
+    <circle r="31" fill="#8B5E3C"/>
+    <circle r="31" fill="none" stroke="#6A4328" stroke-width="3"/>
+    <path d="M-31 0c10-8 20-8 31 0s21 8 31 0M0-31c-8 9-8 20 0 31s8 22 0 31M-22-22c9 4 16 11 22 22M22 22c-9-4-16-11-22-22" fill="none" stroke="#6A4328" stroke-width="1.5" opacity=".7"/>
+    <circle cx="-10" cy="-12" r="7" fill="#A87B55" opacity=".5"/>
+  </g>
+
+  <g fill="#7D5A33">
+    <ellipse cx="304" cy="534" rx="7" ry="3.4" transform="rotate(-18 304 534)"/>
+    <ellipse cx="320" cy="545" rx="6" ry="3" transform="rotate(24 320 545)"/>
+    <ellipse cx="469" cy="478" rx="6" ry="3" transform="rotate(40 469 478)"/>
+    <ellipse cx="676" cy="576" rx="8" ry="3.6" transform="rotate(-10 676 576)"/>
+    <ellipse cx="694" cy="562" rx="6" ry="3" transform="rotate(20 694 562)"/>
+  </g>
+
+  <g>
+    <path d="M672 200c18 12 29 29 33 51" fill="none" stroke="#56653F" stroke-width="1.6" stroke-linecap="round"/>
+    <ellipse cx="685" cy="220" rx="14" ry="6" transform="rotate(-56 685 220)" fill="#7F9C4D"/>
+    <ellipse cx="702" cy="241" rx="13" ry="6" transform="rotate(-18 702 241)" fill="#96B25D"/>
+    <ellipse cx="707" cy="266" rx="11" ry="5" transform="rotate(22 707 266)" fill="#6F8A45"/>
+  </g>
+
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Май тамшысы аватары">
+  <circle cx="48" cy="48" r="48" fill="#E8B44A"/>
+  <circle cx="48" cy="48" r="41" fill="none" stroke="#0B1512" stroke-opacity=".18"/>
+  <path d="M48 21c10 12 17 22 17 31 0 10-7 17-17 17S31 62 31 52c0-9 7-19 17-31Z" fill="#0B1512"/>
+  <path d="M48 33c-4 6-6 11-6 16 0 5 2 8 6 10" fill="none" stroke="#F6D98F" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <path d="M59 34c3 6 1 11-4 14" fill="none" stroke="#F3EAD8" stroke-width="1.6" stroke-linecap="round" opacity=".35"/>
+</svg>

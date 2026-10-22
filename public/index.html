@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>МАЙСТЕР — майлар мен тағамтану сайысы</title>
+  <meta name="description" content="Майлар мен олардың тағамтанудағы маңызы туралы қазақ тіліндегі онлайн білім сайысы. Тіркел, жаттық, күнделікті сынақтан өт және досыңмен 1v1 ойна.">
+  <meta name="theme-color" content="#0B1512">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="МАЙСТЕР — майдың құпиясын шеш">
+  <meta property="og:description" content="48 сұрақ, күнделікті сынақ және нақты уақыттағы 1v1 дүэл. Майлар мен тағамтануды ойнап үйрен.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Негізгі мазмұнға өту</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="ambient" aria-hidden="true">
+    <span class="aurora aurora-a"></span>
+    <span class="aurora aurora-b"></span>
+    <span class="aurora aurora-c"></span>
+  </div>
+
+  <header class="site-head" id="siteHead">
+    <div class="container head-inner">
+      <a class="brand" href="#/" data-nav="home" aria-label="МАЙСТЕР — басты бет">
+        <img class="brand-mark" src="/assets/logo.svg" alt="" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-name">МАЙСТЕР</span>
+          <span class="brand-sub">май · білім · сайыс</span>
+        </span>
+      </a>
+
+      <nav class="nav-public" aria-label="Сайт бөлімдері">
+        <button class="nav-link" data-scroll="modes">Режимдер</button>
+        <button class="nav-link" data-scroll="science">Не үйренесің</button>
+        <button class="nav-link" data-scroll="how">Қалай ойналады</button>
+      </nav>
+
+      <nav class="nav-app" aria-label="Қолданба бөлімдері">
+        <a class="nav-link" href="#/play" data-nav="play">Ойын</a>
+        <a class="nav-link" href="#/leaderboard" data-nav="leaderboard">Рейтинг</a>
+        <a class="nav-link" href="#/profile" data-nav="profile">Профиль</a>
+        <a class="nav-link" href="#/rules" data-nav="rules">Ереже</a>
+      </nav>
+
+      <div class="head-actions">
+        <div class="public-actions">
+          <a class="btn btn-ghost btn-sm" href="#/login">Кіру</a>
+          <a class="btn btn-gold btn-sm" href="#/register">
+            Тегін бастау
+            <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+          </a>
+        </div>
+        <div class="app-actions">
+          <span class="online-pill" title="Қазір сайттағы ойыншылар">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span data-live-online>0</span>
+          </span>
+          <a class="user-chip" href="#/profile" aria-label="Профильге өту">
+            <img class="avatar avatar-30" src="/assets/avatar-olive.svg" alt="" width="30" height="30" data-header-avatar>
+            <span class="user-chip-text">
+              <span class="user-chip-name" data-header-name>Ойыншы</span>
+              <span class="user-chip-level" data-header-level>Деңгей 1</span>
+            </span>
+          </a>
+          <button class="icon-btn" data-action="logout" aria-label="Аккаунттан шығу" title="Шығу">
+            <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#logout"></use></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============================ LANDING ============================ -->
+    <section class="view" data-view="landing" id="view-landing">
+      <div class="container">
+        <div class="hero">
+          <div class="hero-copy reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-line" aria-hidden="true"></span>
+              Дәріс материалы негізінде
+            </div>
+            <h1>Майдың <span class="hl">құпиясын</span> шеш.</h1>
+            <p class="hero-lead">Майлар мен тағамтану туралы білімді ойын арқылы меңгер. Нақты уақыттағы дүэл, күнделікті сынақ және әр жауаптан кейінгі түсіндірме — бәрі бір жерде.</p>
+            <div class="hero-actions">
+              <a class="btn btn-gold btn-lg" href="#/register">
+                Ойынды бастау
+                <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+              </a>
+              <button class="btn btn-outline btn-lg" data-scroll="how">
+                <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#play"></use></svg>
+                Қалай ойналады
+              </button>
+            </div>
+            <div class="hero-meta">
+              <div class="meta-item">
+                <strong data-stat-questions>48</strong>
+                <span>сұрақ</span>
+              </div>
+              <div class="meta-item">
+                <strong>3</strong>
+                <span>режим</span>
+              </div>
+              <div class="meta-item">
+                <strong>1<span class="meta-v">v</span>1</strong>
+                <span>онлайн дүэл</span>
+              </div>
+              <div class="meta-item">
+                <strong data-live-online>0</strong>
+                <span>қазір онлайн</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-art reveal">
+            <div class="art-frame">
+              <div class="art-card">
+                <img src="/assets/hero.svg" alt="Зәйтүн майы, авокадо, балық, жаңғақ және зәйтүн бейнеленген сурет" width="760" height="640">
+              </div>
+              <span class="spark spark-a" aria-hidden="true"></span>
+              <span class="spark spark-b" aria-hidden="true"></span>
+              <span class="spark spark-c" aria-hidden="true"></span>
+              <span class="spark spark-d" aria-hidden="true"></span>
+              <div class="float-chip float-a">
+                <span class="chip-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#drop"></use></svg></span>
+                <span><b>9 ккал</b><small>1 г майдан</small></span>
+              </div>
+              <div class="float-chip float-b">
+                <span class="chip-icon chip-icon-green"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#leaf"></use></svg></span>
+                <span><b>25–30%</b><small>тәуліктік энергия</small></span>
+              </div>
+              <div class="float-chip float-c">
+                <span class="pulse-dot" aria-hidden="true"></span>
+                <span><b><span data-live-online>0</span> ойыншы</b><small>қазір аренада</small></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee-track">
+            <span>1 г май — 9 ккал</span><span class="marquee-dot"></span>
+            <span>A · D · E · K майда ериді</span><span class="marquee-dot"></span>
+            <span>Омега-3 · балық, зығыр, жаңғақ</span><span class="marquee-dot"></span>
+            <span>Ересектерге 25–30% энергия</span><span class="marquee-dot"></span>
+            <span>Транс-майларды шекте</span><span class="marquee-dot"></span>
+            <span>Күніне бір күнделікті сынақ</span><span class="marquee-dot"></span>
+            <span>1 г май — 9 ккал</span><span class="marquee-dot"></span>
+            <span>A · D · E · K майда ериді</span><span class="marquee-dot"></span>
+            <span>Омега-3 · балық, зығыр, жаңғақ</span><span class="marquee-dot"></span>
+            <span>Ересектерге 25–30% энергия</span><span class="marquee-dot"></span>
+            <span>Транс-майларды шекте</span><span class="marquee-dot"></span>
+            <span>Күніне бір күнделікті сынақ</span><span class="marquee-dot"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container section" id="modes">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Үш режим — бір мақсат</div>
+            <h2>Ойна. Үйрен. Есте сақта.</h2>
+          </div>
+          <p class="section-lead">Әр режим бір тақырыпты әр қырынан ашады. Бәрі тегін, тіркелу тек лақап ат пен құпия сөзден тұрады.</p>
+        </div>
+        <div class="mode-grid">
+          <article class="mode-card reveal">
+            <span class="mode-number" aria-hidden="true">01</span>
+            <span class="feature-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#seed"></use></svg></span>
+            <span class="mode-kicker">Жеке қарқын</span>
+            <h3>Жаттығу</h3>
+            <p>Он сұрақ, әрқайсысына 20 секунд. Жауаптан кейін дұрыс нұсқа мен ғылыми түсіндірмені көресің.</p>
+            <ul class="tick-list">
+              <li>Шексіз әрекет</li>
+              <li>Жылдамдыққа ұпай</li>
+              <li>Үздік нәтижең сақталады</li>
+            </ul>
+            <a class="text-link" href="#/register">Бастау <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg></a>
+          </article>
+
+          <article class="mode-card mode-card-featured reveal">
+            <span class="mode-number" aria-hidden="true">02</span>
+            <span class="feature-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#sun"></use></svg></span>
+            <span class="mode-kicker">Күніне бір рет</span>
+            <h3>Күнделікті сынақ</h3>
+            <p>Барлық ойыншыға бірдей сегіз сұрақ. Бүгінгі нәтижең күнделікті рейтингте көрінеді.</p>
+            <ul class="tick-list">
+              <li>Күніне бір мүмкіндік</li>
+              <li>Қосымша XP</li>
+              <li>Ойын ырғағын сақтайды</li>
+            </ul>
+            <a class="text-link" href="#/register">Сынақтан өту <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg></a>
+          </article>
+
+          <article class="mode-card reveal">
+            <span class="mode-number" aria-hidden="true">03</span>
+            <span class="feature-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#swords"></use></svg></span>
+            <span class="mode-kicker">Нақты уақыт</span>
+            <h3>Онлайн дүэл</h3>
+            <p>Досыңды бөлме кодымен шақыр немесе кездейсоқ қарсыласпен кездес. Сегіз сұрақ, 15 секунд, бір жеңімпаз.</p>
+            <ul class="tick-list">
+              <li>Бөлме коды немесе жылдам матч</li>
+              <li>Тікелей ұпай жарысы</li>
+              <li>Қайта ойнау мүмкіндігі</li>
+            </ul>
+            <a class="text-link" href="#/register">Қарсылас табу <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg></a>
+          </article>
+        </div>
+      </div>
+
+      <div class="container section" id="science">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Білім банкі</div>
+            <h2>Май туралы нақты білім.</h2>
+          </div>
+          <p class="section-lead">Сұрақтар «Майлар және олардың тағамтанудағы маңызы» дәрісінің мазмұнына сүйенеді — қарапайым, есте қаларлық тілмен.</p>
+        </div>
+        <div class="topic-grid">
+          <article class="topic reveal">
+            <span class="topic-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#drop"></use></svg></span>
+            <h3>Май түрлері</h3>
+            <p>Қаныққан, қанықпаған және транс-майлардың айырмашылығы.</p>
+          </article>
+          <article class="topic reveal">
+            <span class="topic-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#leaf"></use></svg></span>
+            <h3>Омега қышқылдары</h3>
+            <p>Омега-3, омега-6 және омега-9 қай тағамдарда кездеседі.</p>
+          </article>
+          <article class="topic reveal">
+            <span class="topic-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#shield"></use></svg></span>
+            <h3>Дәрумендер</h3>
+            <p>A, D, E, K дәрумендерінің маймен байланысы және сіңуі.</p>
+          </article>
+          <article class="topic reveal">
+            <span class="topic-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#target"></use></svg></span>
+            <h3>Тәуліктік норма</h3>
+            <p>25–30% энергия, ерлер мен әйелдерге арналған бағдарлар.</p>
+          </article>
+          <article class="topic reveal">
+            <span class="topic-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#fish"></use></svg></span>
+            <h3>Тағам көздері</h3>
+            <p>Балық, жаңғақ, тұқым, авокадо және сапалы өсімдік майлары.</p>
+          </article>
+          <article class="topic reveal">
+            <span class="topic-icon"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#flame"></use></svg></span>
+            <h3>Денсаулық</h3>
+            <p>Жүрек, ми, иммунитет және тері үшін майдың рөлі.</p>
+          </article>
+        </div>
+        <figure class="science-quote reveal">
+          <svg class="quote-mark" aria-hidden="true" viewBox="0 0 52 40"><path d="M0 40V26C0 11 8 2 24 0v11c-7 2-11 6-11 12h10v17H0Zm52 0V26C52 11 44 2 28 0v11c7 2 11 6 11 12H29v17h23Z" fill="currentColor"/></svg>
+          <blockquote>Май — тек энергия емес. Ол ағза үшін қажетті, күрделі әрі маңызды процесс.</blockquote>
+          <figcaption>«Майлар және олардың тағамтанудағы маңызы» дәрісі</figcaption>
+        </figure>
+      </div>
+
+      <div class="container section" id="how">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">Қалай ойналады</div>
+            <h2>Үш қадам — және ойын басталады.</h2>
+          </div>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step-number">01</span>
+            <h3>Тіркел</h3>
+            <p>Лақап ат пен құпия сөз жеткілікті. Email керек емес. Аватарыңды таңдап, профиліңді жаса.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">02</span>
+            <h3>Режимді таңда</h3>
+            <p>Жаттығудан баста, күнделікті сынақпен ырғақ ұста, сосын досыңды онлайн дүэлге шақыр.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">03</span>
+            <h3>Ұпай жина</h3>
+            <p>Жылдам әрі дұрыс жауап бер. XP жинап, деңгей көтер, марапаттар аш және рейтингте өрле.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="container reveal">
+        <div class="cta-band">
+          <div class="cta-copy">
+            <div class="eyebrow eyebrow-dark">Бірінші сұрақ дайын</div>
+            <h2>Бүгін біліміңді сынап көр.</h2>
+            <p>Тегін тіркел, алғашқы ойыныңды ойна және өз деңгейіңді анықта.</p>
+          </div>
+          <a class="btn btn-dark btn-lg" href="#/register">
+            Тегін тіркелу
+            <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+          </a>
+          <svg class="cta-sprig" aria-hidden="true" viewBox="0 0 160 160"><path d="M16 144C58 122 92 90 112 48M72 108c-16 2-28-4-36-18 16-4 28 2 36 18ZM102 70c14 4 22 12 24 26-14 0-22-8-24-26ZM116 44c-12 0-20-6-24-18 12-2 20 4 24 18Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ AUTH ============================ -->
+    <section class="view" data-view="auth" id="view-auth">
+      <div class="container auth-wrap">
+        <div class="auth-visual">
+          <div class="eyebrow">МАЙСТЕР-ге қош келдің</div>
+          <h1>Білім —<br><span class="hl">дәмді</span> болуы мүмкін.</h1>
+          <p>Майлар туралы қате түсініктерді бірге талқайық. Әр сұрақтан кейін дұрыс жауап пен ғылыми түсіндірме аласың.</p>
+          <div class="auth-art">
+            <img src="/assets/hero.svg" alt="" width="760" height="640">
+          </div>
+          <div class="auth-note">
+            <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#shield"></use></svg>
+            <span>Құпия сөз жоқ. Лақап атпен кіресің — прогресс серверде сақталады.</span>
+          </div>
+        </div>
+
+        <div class="auth-panel enter-panel" data-enter-panel>
+          <div class="passwordless-pill">
+            <span class="pw-orb" aria-hidden="true">
+              <svg class="ic"><use href="/assets/icons.svg#lock"></use></svg>
+              <i></i>
+            </span>
+            <span><b>Құпия сөз жоқ</b><small>тек лақап ат — бір секунд</small></span>
+          </div>
+
+          <div class="auth-form-head">
+            <h2>Лақап атыңды жаз.</h2>
+            <p>Ескі профилің табылса, бірден кіресің. Жаңа болсаң, осы жерде ашылады.</p>
+          </div>
+
+          <form class="auth-form enter-form" id="enterForm" novalidate>
+            <label class="field nickname-field">
+              <span>Лақап ат</span>
+              <input type="text" name="nickname" autocomplete="username" minlength="3" maxlength="16" required placeholder="мысалы, Айгүл" aria-describedby="nickStatus" spellcheck="false">
+              <small class="nick-status" id="nickStatus" data-state="idle">
+                <i class="nick-dot" aria-hidden="true"></i>
+                <span data-nick-text>3–16 таңба: әріп, сан немесе _</span>
+              </small>
+            </label>
+
+            <div class="returning-card" data-returning-card hidden>
+              <span class="returning-avatar"><img data-returning-avatar src="/assets/avatar-olive.svg" alt="" width="44" height="44"></span>
+              <span class="returning-copy"><b>Профиль табылды</b><small>Прогресің, XP және марапаттарың сақталған.</small></span>
+              <svg class="ic returning-check" aria-hidden="true"><use href="/assets/icons.svg#check"></use></svg>
+            </div>
+
+            <fieldset class="avatar-field enter-avatar-field" data-enter-avatar-pick>
+              <legend>Аватарыңды таңда</legend>
+              <div class="avatar-pick">
+                <button class="avatar-option is-selected" type="button" data-avatar="olive" aria-label="Зәйтүн" aria-pressed="true"><img src="/assets/avatar-olive.svg" alt="" width="48" height="48"></button>
+                <button class="avatar-option" type="button" data-avatar="avocado" aria-label="Авокадо" aria-pressed="false"><img src="/assets/avatar-avocado.svg" alt="" width="48" height="48"></button>
+                <button class="avatar-option" type="button" data-avatar="fish" aria-label="Балық" aria-pressed="false"><img src="/assets/avatar-fish.svg" alt="" width="48" height="48"></button>
+                <button class="avatar-option" type="button" data-avatar="walnut" aria-label="Жаңғақ" aria-pressed="false"><img src="/assets/avatar-walnut.svg" alt="" width="48" height="48"></button>
+                <button class="avatar-option" type="button" data-avatar="leaf" aria-label="Жапырақ" aria-pressed="false"><img src="/assets/avatar-leaf.svg" alt="" width="48" height="48"></button>
+                <button class="avatar-option" type="button" data-avatar="drop" aria-label="Тамшы" aria-pressed="false"><img src="/assets/avatar-drop.svg" alt="" width="48" height="48"></button>
+              </div>
+            </fieldset>
+
+            <p class="form-error" data-error-for="enter" role="alert"></p>
+            <button class="btn btn-gold btn-full btn-lg enter-submit" type="submit" data-submit>
+              <span data-enter-label>Аренаға кіру</span>
+              <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+            </button>
+            <p class="fineprint">Құпия сөз, email немесе телефон қажет емес. Кіру осы құрылғыдағы қауіпсіз сессиямен сақталады.</p>
+          </form>
+
+          <p class="auth-fineprint"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#info"></use></svg> Бұл — ашық ойын профилі. Жеке деректеріңді енгізбе.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ PLAY ============================ -->
+    <section class="view" data-view="play" id="view-play">
+      <div class="container app-view">
+        <div class="page-head">
+          <div>
+            <div class="eyebrow">Ойын алаңы</div>
+            <h1>Сәлем, <span data-user-first>ойыншы</span>.</h1>
+            <p class="page-sub">Бүгін қандай режимді таңдайсың? Дұрыс жауап — ұпай, ал түсіндірме — шынайы білім.</p>
+          </div>
+          <div class="head-side">
+            <div class="streak-chip" title="Қатарынан ойналған күндер">
+              <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#flame"></use></svg>
+              <span><b data-streak>0</b> күн</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="stat-grid">
+          <article class="stat-card stat-level">
+            <span class="stat-label">Деңгей</span>
+            <div class="stat-value-row"><strong data-level>1</strong></div>
+            <div class="xp-track" aria-hidden="true"><span data-xp-bar></span></div>
+            <small><span data-xp-into>0</span> / <span data-xp-need>100</span> XP</small>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Жалпы XP</span>
+            <strong data-xp>0</strong>
+            <small>Барлық ойындардан</small>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Жеңістер</span>
+            <strong data-wins>0</strong>
+            <small><span data-winrate>0</span>% жеңіс көрсеткіші</small>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Үздік жаттығу</span>
+            <strong data-best>0</strong>
+            <small>Жеке рекорд</small>
+          </article>
+        </div>
+
+        <div class="play-grid">
+          <div class="modes-panel">
+            <article class="play-mode">
+              <div class="play-mode-head">
+                <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#seed"></use></svg></span>
+                <div>
+                  <span class="mode-kicker">Жеке қарқын</span>
+                  <h2>Жаттығу</h2>
+                </div>
+                <span class="mode-badge">10 сұрақ</span>
+              </div>
+              <p>Әр сұраққа 20 секунд. Жауаптан кейін дұрыс нұсқа мен түсіндірмені көресің.</p>
+              <div class="play-mode-foot">
+                <span class="mode-meta">Шексіз · 20 сек</span>
+                <button class="btn btn-gold" data-action="start-solo">
+                  Бастау
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+                </button>
+              </div>
+            </article>
+
+            <article class="play-mode play-mode-daily">
+              <div class="play-mode-head">
+                <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#sun"></use></svg></span>
+                <div>
+                  <span class="mode-kicker">Күніне бір рет</span>
+                  <h2>Күнделікті сынақ</h2>
+                </div>
+                <span class="mode-badge" data-daily-badge>8 сұрақ</span>
+              </div>
+              <p data-daily-text>Барлығына бірдей сегіз сұрақ. Бүгінгі мүмкіндігіңді пайдалан.</p>
+              <div class="play-mode-foot">
+                <span class="mode-meta" data-daily-status>Бүгін әлі ойналмады</span>
+                <button class="btn btn-gold" data-action="start-daily">
+                  Сынақтан өту
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+                </button>
+              </div>
+            </article>
+
+            <article class="play-mode play-mode-duel">
+              <div class="play-mode-head">
+                <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#swords"></use></svg></span>
+                <div>
+                  <span class="mode-kicker">Нақты уақыт · 1v1</span>
+                  <h2>Онлайн дүэл</h2>
+                </div>
+                <span class="mode-badge">8 сұрақ</span>
+              </div>
+              <p>Кездейсоқ қарсыласпен ойна немесе бөлме құрып, досыңды кодпен шақыр. Әр сұраққа 15 секунд.</p>
+              <div class="duel-actions">
+                <button class="btn btn-gold" data-action="quick-match">
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#zap"></use></svg>
+                  Жылдам ойын
+                </button>
+                <button class="btn btn-outline" data-action="create-room">
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#plus"></use></svg>
+                  Бөлме құру
+                </button>
+                <form class="join-form" id="joinRoomForm" novalidate>
+                  <label class="sr-only" for="roomCodeInput">Бөлме коды</label>
+                  <input id="roomCodeInput" name="code" type="text" inputmode="text" autocomplete="off" maxlength="6" placeholder="Код" aria-label="Бөлме коды">
+                  <button class="btn btn-outline" type="submit">Кіру</button>
+                </form>
+              </div>
+              <p class="form-error" data-error-for="join" role="alert"></p>
+            </article>
+          </div>
+
+          <aside class="play-side">
+            <div class="active-room-card hidden" id="activeRoomCard">
+              <span class="eyebrow">Белсенді бөлме</span>
+              <strong data-active-code>------</strong>
+              <p>Ойын жалғасып жатыр. Қайта қосыл.</p>
+              <a class="btn btn-gold btn-sm" href="#/" data-active-link>Бөлмеге өту</a>
+            </div>
+            <article class="tip-card">
+              <div class="card-head">
+                <h3><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#sparkle"></use></svg> Бүгінгі ғылым</h3>
+                <span class="tip-index">01</span>
+              </div>
+              <p data-tip="Май — ең қуатты энергия көзі: 1 г май шамамен 9 ккал береді.">Май — ең қуатты энергия көзі: 1 г май шамамен 9 ккал береді.</p>
+              <span class="tip-source">Дәріс материалы негізінде</span>
+            </article>
+            <article class="recent-card">
+              <div class="card-head">
+                <h3>Соңғы ойындар</h3>
+                <a class="text-link" href="#/profile">Барлығы</a>
+              </div>
+              <ul class="recent-list" data-recent>
+                <li class="empty-state">Әзірге ойын жоқ. Алғашқы жаттығудан баста!</li>
+              </ul>
+            </article>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ LEADERBOARD ============================ -->
+    <section class="view" data-view="leaderboard" id="view-leaderboard">
+      <div class="container app-view">
+        <div class="page-head">
+          <div>
+            <div class="eyebrow">Арена үздіктері</div>
+            <h1>Рейтинг</h1>
+            <p class="page-sub">XP, күнделікті нәтиже немесе жеке рекорд бойынша үздіктер. Әр дұрыс жауап сені жоғарыға шығарады.</p>
+          </div>
+          <div class="online-pill"><span class="pulse-dot" aria-hidden="true"></span><span data-live-online>0</span> онлайн</div>
+        </div>
+
+        <div class="lb-tabs" role="tablist" aria-label="Рейтинг түрлері">
+          <button class="lb-tab is-active" type="button" data-board="xp" role="tab" aria-selected="true">Жалпы XP</button>
+          <button class="lb-tab" type="button" data-board="daily" role="tab" aria-selected="false">Бүгін</button>
+          <button class="lb-tab" type="button" data-board="solo" role="tab" aria-selected="false">Жеке рекорд</button>
+        </div>
+
+        <div class="podium" data-podium aria-live="polite"></div>
+
+        <div class="lb-card">
+          <div class="lb-head" data-lb-head>
+            <span>Орын</span><span>Ойыншы</span><span class="lb-col-level">Деңгей</span><span class="lb-col-main">XP</span><span class="lb-col-win">Жеңіс</span>
+          </div>
+          <div class="lb-rows" data-lb-rows aria-live="polite">
+            <div class="loading-row"><span class="spinner"></span> Рейтинг жүктелуде…</div>
+          </div>
+          <div class="my-rank hidden" data-my-rank></div>
+        </div>
+        <p class="lb-note">Рейтинг барлық ойыншылар бойынша есептеледі. Күнделікті кесте әр күні Алматы уақытымен жаңарады.</p>
+      </div>
+    </section>
+
+    <!-- ============================ PROFILE ============================ -->
+    <section class="view" data-view="profile" id="view-profile">
+      <div class="container app-view">
+        <div class="profile-hero">
+          <div class="profile-id">
+            <img class="avatar avatar-72" src="/assets/avatar-olive.svg" alt="" width="72" height="72" data-profile-avatar>
+            <div>
+              <div class="eyebrow" data-profile-eyebrow>Профиль</div>
+              <h1 data-profile-name>Ойыншы</h1>
+              <p class="profile-meta" data-profile-meta>МАЙСТЕР қатысушысы</p>
+            </div>
+          </div>
+          <div class="profile-actions" data-profile-actions>
+            <button class="btn btn-outline btn-sm" data-action="edit-profile">
+              <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#settings"></use></svg>
+              Баптау
+            </button>
+            <button class="btn btn-ghost btn-sm" data-action="logout">
+              <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#logout"></use></svg>
+              Шығу
+            </button>
+          </div>
+        </div>
+
+        <div class="profile-grid">
+          <div class="profile-main">
+            <div class="level-banner">
+              <div class="level-ring" data-profile-level>1</div>
+              <div class="level-copy">
+                <span class="eyebrow">Ағымдағы деңгей</span>
+                <strong data-profile-level-label>Деңгей 1</strong>
+                <div class="xp-track"><span data-profile-xp-bar></span></div>
+                <small><span data-profile-xp-into>0</span> / <span data-profile-xp-need>100</span> XP</small>
+              </div>
+              <div class="level-rank"><span>Орын</span><strong data-profile-rank>—</strong></div>
+            </div>
+
+            <div class="stat-grid profile-stat-grid">
+              <article class="stat-card"><span class="stat-label">Ойындар</span><strong data-profile-games>0</strong><small>Аяқталған</small></article>
+              <article class="stat-card"><span class="stat-label">Жеңістер</span><strong data-profile-wins>0</strong><small>Дүэлде</small></article>
+              <article class="stat-card"><span class="stat-label">Дәлдік</span><strong><span data-profile-accuracy>0</span>%</strong><small>Барлық жауап</small></article>
+              <article class="stat-card"><span class="stat-label">Үздік жаттығу</span><strong data-profile-best>0</strong><small>Ұпай</small></article>
+              <article class="stat-card"><span class="stat-label">Қатарынан</span><strong><span data-profile-streak>0</span></strong><small>Күн</small></article>
+              <article class="stat-card"><span class="stat-label">Дүэлдер</span><strong data-profile-duels>0</strong><small>Онлайн</small></article>
+            </div>
+
+            <section class="panel">
+              <div class="panel-head">
+                <h2>Марапаттар</h2>
+                <span class="panel-meta" data-achievement-count>0 / 10</span>
+              </div>
+              <div class="ach-grid" data-achievements></div>
+            </section>
+
+            <section class="panel">
+              <div class="panel-head">
+                <h2>Соңғы ойындар</h2>
+                <span class="panel-meta">Соңғы 10</span>
+              </div>
+              <div class="history-list" data-profile-recent></div>
+            </section>
+
+            <section class="panel settings-panel" data-settings hidden>
+              <div class="panel-head">
+                <h2>Профиль баптауы</h2>
+                <button class="icon-btn" type="button" data-action="close-settings" aria-label="Баптауды жабу">
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#x"></use></svg>
+                </button>
+              </div>
+              <div class="settings-grid">
+                <div>
+                  <h3 class="subhead">Аватар</h3>
+                  <div class="avatar-pick" data-profile-avatar-pick>
+                    <button class="avatar-option" type="button" data-avatar="olive" aria-label="Зәйтүн" aria-pressed="false"><img src="/assets/avatar-olive.svg" alt="" width="48" height="48"></button>
+                    <button class="avatar-option" type="button" data-avatar="avocado" aria-label="Авокадо" aria-pressed="false"><img src="/assets/avatar-avocado.svg" alt="" width="48" height="48"></button>
+                    <button class="avatar-option" type="button" data-avatar="fish" aria-label="Балық" aria-pressed="false"><img src="/assets/avatar-fish.svg" alt="" width="48" height="48"></button>
+                    <button class="avatar-option" type="button" data-avatar="walnut" aria-label="Жаңғақ" aria-pressed="false"><img src="/assets/avatar-walnut.svg" alt="" width="48" height="48"></button>
+                    <button class="avatar-option" type="button" data-avatar="leaf" aria-label="Жапырақ" aria-pressed="false"><img src="/assets/avatar-leaf.svg" alt="" width="48" height="48"></button>
+                    <button class="avatar-option" type="button" data-avatar="drop" aria-label="Тамшы" aria-pressed="false"><img src="/assets/avatar-drop.svg" alt="" width="48" height="48"></button>
+                  </div>
+                  <button class="btn btn-outline btn-sm" type="button" data-action="save-avatar">Аватарды сақтау</button>
+                </div>
+                <div class="profile-passnote">
+                  <span class="passnote-orb" aria-hidden="true">
+                    <svg class="ic"><use href="/assets/icons.svg#lock"></use></svg>
+                    <i></i>
+                  </span>
+                  <div>
+                    <h3 class="subhead">Құпия сөзсіз кіру</h3>
+                    <p>Кіру үшін тек лақап ат жетеді. Сессия осы құрылғыда сақталады, ал прогресс серверде жаңартылады.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="profile-side">
+            <section class="panel">
+              <div class="panel-head"><h3>Күнделікті ырғақ</h3></div>
+              <div class="week-strip" data-daily-week></div>
+              <p class="muted-note">Күнделікті сынақтан өтіп, қатарынан ойналған күндеріңді көбейт.</p>
+            </section>
+            <section class="panel">
+              <div class="panel-head"><h3>Жалпы дәлдік</h3></div>
+              <div class="accuracy-box">
+                <div class="accuracy-ring" data-accuracy-ring><span data-profile-accuracy-big>0%</span></div>
+                <div><strong data-profile-correct>0</strong><span class="muted-note">дұрыс жауап</span></div>
+              </div>
+            </section>
+            <section class="panel">
+              <div class="panel-head"><h3>Аккаунт</h3></div>
+              <p class="account-line"><span>Қосылған күн</span><b data-profile-joined>—</b></p>
+              <p class="account-line"><span>Мәртебе</span><b class="status-online"><span class="pulse-dot"></span> Белсенді</b></p>
+              <p class="muted-note">Құпия сөз жоқ: профильге лақап атпен кіресің. Сессия осы құрылғыда сақталады.</p>
+            </section>
+            <section class="panel source-panel">
+              <div class="panel-head"><h3>Дереккөз</h3></div>
+              <p>Сұрақтар «Майлар және олардың тағамтанудағы маңызы» дәрісінің материалына негізделген.</p>
+              <p class="muted-note">Бұл сайт білім сайысы. Медициналық кеңес алу үшін дәрігерге жүгініңіз.</p>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ RULES ============================ -->
+    <section class="view" data-view="rules" id="view-rules">
+      <div class="container app-view rules-wrap">
+        <div class="page-head">
+          <div>
+            <div class="eyebrow">Ашық ойын</div>
+            <h1>Ережелер мен ұпай</h1>
+            <p class="page-sub">Ұпай қалай есептелетінін, режимдердің айырмашылығын және әділ ойын қағидаларын біл.</p>
+          </div>
+        </div>
+
+        <div class="rules-grid">
+          <article class="rule-card">
+            <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#target"></use></svg></span>
+            <h2>Ұпай формуласы</h2>
+            <p>Дұрыс жауап үшін негізгі 100 ұпай, жылдамдық үшін 0–50 ұпай және қатарынан дұрыс жауап үшін 0–50 ұпай қосылады.</p>
+            <ul class="rule-list">
+              <li><span>Негізгі ұпай</span><b>100</b></li>
+              <li><span>Жылдамдық бонусы</span><b>0–50</b></li>
+              <li><span>Серия бонусы</span><b>0–50</b></li>
+              <li><span>Бір сұрақтан максимум</span><b>200</b></li>
+            </ul>
+          </article>
+
+          <article class="rule-card">
+            <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#clock"></use></svg></span>
+            <h2>Режимдер</h2>
+            <ul class="rule-list">
+              <li><span>Жаттығу</span><b>10 сұрақ · 20 с</b></li>
+              <li><span>Күнделікті сынақ</span><b>8 сұрақ · 20 с</b></li>
+              <li><span>Онлайн дүэл</span><b>8 сұрақ · 15 с</b></li>
+              <li><span>Бөлме коды</span><b>6 таңба</b></li>
+            </ul>
+            <p>Уақыт серверде есептеледі, сондықтан әр ойыншы тең жағдайда болады.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#sun"></use></svg></span>
+            <h2>Күнделікті сынақ</h2>
+            <p>Барлық ойыншыға сол күні бірдей 8 сұрақ беріледі. Күніне бір ғана мүмкіндік бар.</p>
+            <p class="warn-note">Сынақты бастаған соң тоқтатсаң, бүгінгі мүмкіндік пайдаланылды деп саналады. Бастамас бұрын дайын бол.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#swords"></use></svg></span>
+            <h2>Дүэл тәртібі</h2>
+            <p>Екі ойыншы қатар жауап береді. Бірінші болып дұрыс жауап берген адам көбірек жылдамдық бонусы алады.</p>
+            <p>Екінші ойыншы жауап берсе немесе уақыт бітсе, дұрыс жауап ашылады. Байланысы үзілген ойыншыға қайта қосылуға 20 секунд беріледі.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#shield"></use></svg></span>
+            <h2>Әділ ойын</h2>
+            <p>Барлық жауаптар мен ұпайлар серверде есептеледі. Дұрыс жауап жауап берілгенге дейін браузерге жіберілмейді.</p>
+            <p>Бір аккаунтты бірнеше адамға пайдалануға немесе автоматты бағдарлама қолдануға болмайды.</p>
+          </article>
+
+          <article class="rule-card">
+            <span class="feature-icon feature-icon-sm"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#book"></use></svg></span>
+            <h2>Дереккөз және ескерту</h2>
+            <p>Сұрақ банкі «Майлар және олардың тағамтанудағы маңызы» дәрісінің 22 слайды негізінде жасалды.</p>
+            <p class="warn-note">Сайт білім сайысы ретінде ұсынылады және жеке медициналық кеңес орнын баспайды.</p>
+          </article>
+        </div>
+
+        <div class="rules-foot">
+          <p>Сұрақ немесе ұсыныс бар ма? Ойынды жалғастырып, рейтингте өз орныңды ал.</p>
+          <a class="btn btn-gold" href="#/play">Ойынға оралу <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ROOM ============================ -->
+    <section class="view" data-view="room" id="view-room">
+      <div class="container app-view room-wrap">
+        <a class="back-link" href="#/play">
+          <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-left"></use></svg>
+          Ойын алаңы
+        </a>
+        <div class="room-page-head">
+          <div>
+            <div class="eyebrow">Онлайн дүэл</div>
+            <h1>Бөлме <span class="mono" data-room-title-code>------</span></h1>
+            <p class="page-sub">Досыңа кодты жібер немесе сілтемені бөліс. Екеуің дайын болғанда ойын басталады.</p>
+          </div>
+          <span class="connection-pill" data-connection><span class="pulse-dot"></span> Қосылуда…</span>
+        </div>
+
+        <div class="room-grid">
+          <div class="lobby-card">
+            <div class="code-block">
+              <span class="eyebrow">Бөлме коды</span>
+              <strong class="room-code" data-lobby-code>------</strong>
+              <div class="code-actions">
+                <button class="btn btn-outline btn-sm" data-action="copy-code">
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#copy"></use></svg>
+                  Көшіру
+                </button>
+                <button class="btn btn-outline btn-sm" data-action="share-room">
+                  <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#share"></use></svg>
+                  Сілтеме
+                </button>
+              </div>
+            </div>
+
+            <div class="seats" data-seats aria-live="polite">
+              <div class="seat"><span class="seat-avatar placeholder"></span><span class="seat-name">Бірінші ойыншы</span><span class="seat-tag">Күтуде…</span></div>
+              <span class="seat-vs">VS</span>
+              <div class="seat"><span class="seat-avatar placeholder"></span><span class="seat-name">Екінші ойыншы</span><span class="seat-tag">Бос орын</span></div>
+            </div>
+
+            <div class="lobby-actions">
+              <button class="btn btn-gold btn-lg" data-action="start-room">Ойынды бастау</button>
+              <button class="btn btn-ghost" data-action="leave-room">Бөлмеден шығу</button>
+            </div>
+            <p class="lobby-hint" data-lobby-hint>Ойынды бастау үшін қарсылас күтілуде.</p>
+            <p class="form-error" data-error-for="room" role="alert"></p>
+          </div>
+
+          <aside class="room-side">
+            <div class="panel room-tip">
+              <div class="panel-head"><h3>Дүэл ережесі</h3></div>
+              <ul class="tick-list">
+                <li>8 сұрақ · әрқайсысына 15 секунд</li>
+                <li>Жылдам әрі дұрыс жауап көбірек ұпай береді</li>
+                <li>Байланыс үзілсе — 20 секунд қайта қосылуға</li>
+                <li>Екеуің де «Қайта ойнау» басса, матч жаңарады</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <div class="panel-head"><h3>Досыңды шақыр</h3></div>
+              <p>Бөлме кодын жібер немесе сілтемені бөліс. Досың сайтқа кіріп, «Кодпен кіру» арқылы қосыла алады.</p>
+              <div class="room-link-box">
+                <span data-room-link>—</span>
+                <button class="icon-btn" data-action="copy-link" aria-label="Сілтемені көшіру"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#copy"></use></svg></button>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="panel-head"><h3>Күй</h3></div>
+              <p class="account-line"><span>Байланыс</span><b data-room-status-text>Ойыншылар күтілуде</b></p>
+              <p class="account-line"><span>Ойын түрі</span><b>1v1 · 8 сұрақ</b></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot" id="siteFoot">
+    <div class="container foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#/" aria-label="МАЙСТЕР">
+          <img class="brand-mark" src="/assets/logo.svg" alt="" width="40" height="40">
+          <span class="brand-text"><span class="brand-name">МАЙСТЕР</span><span class="brand-sub">май · білім · сайыс</span></span>
+        </a>
+        <p>Майлар мен тағамтану туралы білімді ойын арқылы меңгеруге арналған қазақ тіліндегі тегін платформа.</p>
+        <span class="foot-badge"><svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#shield"></use></svg> Серверлік әділ ойын</span>
+      </div>
+      <div class="foot-col">
+        <h4>Ойын</h4>
+        <a href="#/register">Жаттығу</a>
+        <a href="#/register">Күнделікті сынақ</a>
+        <a href="#/register">Онлайн дүэл</a>
+        <a href="#/login">Кіру</a>
+      </div>
+      <div class="foot-col">
+        <h4>Білім</h4>
+        <button data-scroll="science">Май түрлері</button>
+        <button data-scroll="science">Омега қышқылдары</button>
+        <button data-scroll="science">Тәуліктік норма</button>
+        <a href="#/rules">Ережелер</a>
+      </div>
+      <div class="foot-col foot-source">
+        <h4>Дереккөз</h4>
+        <p>«Майлар және олардың тағамтанудағы маңызы» дәрісінің материалы негізінде.</p>
+        <p class="muted-note">Бұл сайт медициналық кеңес бермейді. Тағамтану бойынша жеке кеңес үшін маманға жүгініңіз.</p>
+      </div>
+    </div>
+    <div class="container foot-bottom">
+      <span>© 2026 МАЙСТЕР</span>
+      <span>Қазақ тілінде · Тегін · Онлайн</span>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="Мобильді мәзір">
+    <a class="tab" href="#/play" data-nav="play">
+      <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#play"></use></svg>
+      <span>Ойын</span>
+    </a>
+    <a class="tab" href="#/leaderboard" data-nav="leaderboard">
+      <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#trophy"></use></svg>
+      <span>Рейтинг</span>
+    </a>
+    <a class="tab" href="#/profile" data-nav="profile">
+      <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#user"></use></svg>
+      <span>Профиль</span>
+    </a>
+    <a class="tab" href="#/rules" data-nav="rules">
+      <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#book"></use></svg>
+      <span>Ереже</span>
+    </a>
+  </nav>
+
+  <!-- ============================ GAME LAYER ============================ -->
+  <div class="game-layer" id="gameLayer" aria-hidden="true">
+    <div class="fx-flash" id="fxFlash" aria-hidden="true"></div>
+    <div class="game-shell">
+      <header class="game-top">
+        <button class="icon-btn" type="button" data-action="quit-game" aria-label="Ойыннан шығу">
+          <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#x"></use></svg>
+        </button>
+        <div class="game-mid">
+          <span class="game-mode-label" data-game-mode>Жаттығу</span>
+          <div class="progress-dots" data-progress-dots aria-hidden="true"></div>
+        </div>
+        <button class="icon-btn" type="button" data-action="toggle-sound" aria-label="Дыбысты өшіру" data-sound-btn>
+          <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#sound-on"></use></svg>
+        </button>
+      </header>
+
+      <div class="game-stage" id="gameStage">
+        <div class="duel-bar hidden" id="duelBar">
+          <div class="duel-player is-me">
+            <img class="avatar avatar-34" src="/assets/avatar-olive.svg" alt="" data-duel-my-avatar>
+            <div><span class="duel-name" data-duel-my-name>Мен</span><small data-duel-my-status>Дайын</small></div>
+            <strong data-duel-my-score>0</strong>
+          </div>
+          <span class="duel-vs">VS</span>
+          <div class="duel-player">
+            <img class="avatar avatar-34" src="/assets/avatar-leaf.svg" alt="" data-duel-op-avatar>
+            <div><span class="duel-name" data-duel-op-name>Қарсылас</span><small data-duel-op-status>Дайын</small></div>
+            <strong data-duel-op-score>0</strong>
+          </div>
+        </div>
+
+        <div class="question-top">
+          <div class="q-meta">
+            <span class="chip" data-q-cat>Негіздер</span>
+            <span class="q-count" data-q-count>1 / 10</span>
+          </div>
+          <div class="timer" id="timerRing" aria-label="Қалған уақыт">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="timer-bg" cx="50" cy="50" r="45"></circle>
+              <circle class="timer-arc" id="timerArc" cx="50" cy="50" r="45"></circle>
+            </svg>
+            <span class="timer-num" data-time>20</span>
+          </div>
+        </div>
+
+        <h1 class="question-text" data-question>Сұрақ жүктелуде…</h1>
+        <p class="question-hint">Дұрыс деп ойлаған нұсқаны таңда. Пернетақтада 1–4 пернелерін де қолдануға болады.</p>
+        <div class="answers" data-answers></div>
+
+        <div class="feedback hidden" id="feedback">
+          <div class="feedback-head">
+            <span class="feedback-icon" data-feedback-icon>
+              <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#check"></use></svg>
+            </span>
+            <div class="feedback-copy">
+              <strong data-feedback-title>Дұрыс!</strong>
+              <span data-feedback-points>+150 ұпай</span>
+            </div>
+            <button class="btn btn-gold" type="button" data-action="next-question">
+              <span data-next-label>Келесі сұрақ</span>
+              <svg class="ic" aria-hidden="true"><use href="/assets/icons.svg#arrow-right"></use></svg>
+            </button>
+          </div>
+          <p data-feedback-fact></p>
+        </div>
+
+        <div class="waiting hidden" id="waiting">
+          <span class="spinner"></span>
+          <p data-waiting-text>Қарсылас жауап беруде…</p>
+        </div>
+      </div>
+
+      <div class="result-stage hidden" id="resultStage" aria-live="polite"></div>
+
+      <div class="countdown-stage hidden" id="countdownStage">
+        <span class="eyebrow">Нақты уақыт</span>
+        <p>Дайын бол!</p>
+        <strong class="countdown-num" data-countdown>3</strong>
+        <div class="countdown-players" data-countdown-players></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================ DIALOGS ============================ -->
+  <dialog class="dialog" id="confirmDialog" aria-labelledby="confirmTitle">
+    <form method="dialog" class="dialog-body">
+      <h2 id="confirmTitle" data-confirm-title>Растау</h2>
+      <p data-confirm-text></p>
+      <div class="dialog-actions">
+        <button class="btn btn-outline" value="cancel" type="submit">Болдырмау</button>
+        <button class="btn btn-gold" value="ok" type="submit" data-confirm-ok>Иә</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="dialog search-dialog" id="searchDialog" aria-labelledby="searchTitle">
+    <div class="search-visual" aria-hidden="true">
+      <span class="radar-ring radar-1"></span>
+      <span class="radar-ring radar-2"></span>
+      <span class="radar-core"><svg class="ic"><use href="/assets/icons.svg#swords"></use></svg></span>
+    </div>
+    <h2 id="searchTitle">Қарсылас ізделуде…</h2>
+    <p>Кездейсоқ қарсылас табылғанша күт. Бұл әдетте бірнеше секунд алады.</p>
+    <span class="search-time" data-search-time>0:00</span>
+    <button class="btn btn-outline" type="button" data-action="cancel-search">Іздеуді тоқтату</button>
+  </dialog>
+
+  <div class="toasts" id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+  <div class="welcome-overlay" id="welcomeOverlay" aria-hidden="true">
+    <div class="welcome-core">
+      <div class="welcome-halo" aria-hidden="true"></div>
+      <div class="welcome-rings" aria-hidden="true"><i></i><i></i><i></i></div>
+      <span class="welcome-spark s1" aria-hidden="true"></span>
+      <span class="welcome-spark s2" aria-hidden="true"></span>
+      <span class="welcome-spark s3" aria-hidden="true"></span>
+      <span class="welcome-spark s4" aria-hidden="true"></span>
+      <span class="welcome-spark s5" aria-hidden="true"></span>
+      <span class="welcome-spark s6" aria-hidden="true"></span>
+      <div class="welcome-avatar"><img data-welcome-avatar src="/assets/avatar-olive.svg" alt="" width="96" height="96"></div>
+      <div class="welcome-kicker" data-welcome-kicker>Жаңа профиль</div>
+      <h2 data-welcome-name>Қош келдің!</h2>
+      <p data-welcome-sub>Арена дайын. Алғашқы сұрақ сені күтіп тұр.</p>
+      <div class="welcome-bar" aria-hidden="true"><i></i></div>
+    </div>
+  </div>
+</body>
+</html>

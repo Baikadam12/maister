@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Жапырақ аватары">
+  <circle cx="48" cy="48" r="48" fill="#4B6631"/>
+  <circle cx="48" cy="48" r="41" fill="none" stroke="#F3EAD8" stroke-opacity=".18"/>
+  <path d="M67 27C48 27 32 36 28 52c-2 7 1 13 6 16 16 10 31 1 36-18 2-8 0-15-3-23Z" fill="#AFCB70"/>
+  <path d="M29 68c9-18 20-29 34-36" fill="none" stroke="#38501F" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M45 51c-1-7 2-12 9-15M54 42c8-1 13 2 16 8M39 59c-7 0-12-3-14-9" fill="none" stroke="#6E8F3B" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="34" cy="33" r="2" fill="#E8B44A"/>
+</svg>

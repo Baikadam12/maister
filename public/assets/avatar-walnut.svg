@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Жаңғақ аватары">
+  <circle cx="48" cy="48" r="48" fill="#6F452B"/>
+  <circle cx="48" cy="48" r="41" fill="none" stroke="#F3EAD8" stroke-opacity=".18"/>
+  <circle cx="48" cy="49" r="23" fill="#C08B5C"/>
+  <circle cx="48" cy="49" r="23" fill="none" stroke="#5C3720" stroke-width="3"/>
+  <path d="M48 27c-3 10-3 34 0 44M27 49c10-4 32-4 42 0M34 33c8 7 20 25 23 36M62 33c-8 7-20 25-23 36" fill="none" stroke="#5C3720" stroke-width="1.6" stroke-linecap="round" opacity=".65"/>
+  <circle cx="48" cy="49" r="27" fill="none" stroke="#F3EAD8" stroke-opacity=".14" stroke-dasharray="3 5"/>
+</svg>

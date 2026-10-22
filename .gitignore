@@ -1,0 +1,18 @@
+# local data / sessions
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite-*
+data/*.db-wal
+data/*.db-shm
+
+# environment / secrets
+.env
+.env.*
+*.pem
+
+# dependencies / logs / OS
+node_modules/
+*.log
+.DS_Store
+tmp/

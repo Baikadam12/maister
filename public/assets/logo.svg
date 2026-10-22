@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="МАЙСТЕР эмблемасы">
+  <defs>
+    <linearGradient id="gold" x1="10" y1="6" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6D98F"/>
+      <stop offset=".55" stop-color="#E8B44A"/>
+      <stop offset="1" stop-color="#C58F2B"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#gold)"/>
+  <circle cx="32" cy="32" r="25" fill="none" stroke="#0B1512" stroke-opacity=".28" stroke-width="1"/>
+  <path d="M32 14.5c7.7 8.9 11.3 15.9 11.3 21.9 0 7.9-5 13.1-11.3 13.1s-11.3-5.2-11.3-13.1c0-6 3.6-13 11.3-21.9Z" fill="#0B1512"/>
+  <path d="M31.7 34.6c3.4-4.9 7.3-7 11.1-6.5-.8 4.3-3.2 7.2-7.2 8.7-1.9.7-3.5.6-4.8-.2.2-.8.5-1.5.9-2Z" fill="#E8B44A"/>
+  <path d="M31.7 34.6c-4.2-.2-7.2 1.2-9.1 4.3 3.2 2.2 6.3 2.2 9.4 0 .8-.6 1.5-1.4 2-2.4-.8-.7-1.5-1.4-2.3-1.9Z" fill="#8AAE55"/>
+  <path d="M31.6 35.2c.7 3.6.6 6.8-.3 9.6" fill="none" stroke="#F3EAD8" stroke-width="1.3" stroke-linecap="round" opacity=".75"/>
+</svg>

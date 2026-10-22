@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Зәйтүн аватары">
+  <circle cx="48" cy="48" r="48" fill="#314B2C"/>
+  <circle cx="48" cy="48" r="41" fill="none" stroke="#F3EAD8" stroke-opacity=".18"/>
+  <path d="M27 58c8-13 18-21 31-25" fill="none" stroke="#8AAE55" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M52 38c-1-6 2-10 8-12 1 6-2 10-8 12Z" fill="#9CBF62"/>
+  <path d="M42 45c-6 0-10-3-12-9 6-1 10 2 12 9Z" fill="#7FA24A"/>
+  <ellipse cx="55" cy="57" rx="9" ry="12" transform="rotate(28 55 57)" fill="#C6D47B"/>
+  <ellipse cx="55" cy="57" rx="5.5" ry="7.5" transform="rotate(28 55 57)" fill="#7D4A2A"/>
+  <ellipse cx="38" cy="66" rx="8" ry="10" transform="rotate(-24 38 66)" fill="#A8BD61"/>
+  <ellipse cx="38" cy="66" rx="4.8" ry="6.4" transform="rotate(-24 38 66)" fill="#6E4326"/>
+  <path d="M28 76c12 3 23 2 34-4" fill="none" stroke="#F3EAD8" stroke-opacity=".25" stroke-width="1.4" stroke-linecap="round"/>
+</svg>

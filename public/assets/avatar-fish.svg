@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Балық аватары">
+  <circle cx="48" cy="48" r="48" fill="#244B49"/>
+  <circle cx="48" cy="48" r="41" fill="none" stroke="#F3EAD8" stroke-opacity=".16"/>
+  <path d="M23 48c8-12 20-18 34-15 6 1 10 4 14 9l9-7c1 8-1 15-6 21 5 6 7 13 6 21l-9-7c-4 5-8 8-14 9-14 3-26-3-34-15" fill="#E58C6E"/>
+  <path d="M60 34c-8 5-13 10-13 16 0 5 4 9 9 12 8-4 12-9 14-17-3-5-6-9-10-11Z" fill="#F1B69E" opacity=".8"/>
+  <circle cx="39" cy="44" r="3.2" fill="#17302F"/>
+  <path d="M30 54c5 2 10 2 15 0" fill="none" stroke="#9E4F3A" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M76 33c0 6-2 10-7 13" fill="none" stroke="#F3EAD8" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>
